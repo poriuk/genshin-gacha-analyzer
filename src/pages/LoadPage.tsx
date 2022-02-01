@@ -10,7 +10,7 @@ import { FriendLinks } from 'components/FriendLinks';
 import parseExcel from 'utils/parseExcel';
 import { compressToHash } from 'utils/compress';
 import qs from 'qs';
-
+ 
 const { Dragger } = Upload;
 type LoadPageProps = {
   onLoad?: () => void;
